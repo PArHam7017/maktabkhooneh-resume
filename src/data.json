@@ -1,0 +1,78 @@
+{
+    "title": "Hello I'm PArHam!",
+    "subtitle": "Web Designer",
+    "links": {
+        "github": "https://github.com/parham7017",
+        "stackoverflow": "https://stackoverflow.com/users/12166245/parham7017"
+    },
+    "sections": [
+        {
+            "title": "About",
+            "items": [
+                {
+                    "type": "p",
+                    "content": "I'm a programmer."
+                },
+                {
+                    "type": "p",
+                    "content": "I love programming."
+                },
+                {
+                    "type": "p",
+                    "content": "AI's are my favorite subject."
+                },
+                {
+                    "type": "p",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, ex ipsum iure iusto laudantium magnam, minima necessitatibus officiis omnis, quos sit veritatis! Architecto consequuntur dolorum fugit illo quidem tempora voluptatem.\n"
+                }
+            ]
+        },
+        {
+            "title": "Skills",
+            "items": [
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/react.png",
+                        "title": "React"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/javascript.png",
+                        "title": "Javascript"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/html.png",
+                        "title": "HTML"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/css.png",
+                        "title": "CSS"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/laravel.png",
+                        "title": "Laravel"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/android.png",
+                        "title": "Android"
+                    }
+                }
+            ]
+        }
+    ]
+}

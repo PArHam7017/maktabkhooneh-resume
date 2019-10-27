@@ -36,7 +36,7 @@ export default class Navigation extends React.Component {
         return (
             <div>
                 <Navbar color="dark" dark={true} fixed="top" light expand="md">
-                    <NavbarBrand href="/">PArHam7017</NavbarBrand>
+                    <NavbarBrand href="/maktabkhooneh-resume/">PArHam7017</NavbarBrand>
                     <NavbarToggler onClick={this.toggle}/>
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="mr-auto" navbar>

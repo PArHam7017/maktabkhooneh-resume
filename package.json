@@ -2,6 +2,7 @@
   "name": "my-resume",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://parham7017.github.io/maktabkhooneh-resume/",
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
@@ -14,6 +15,8 @@
     "reactstrap": "^8.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

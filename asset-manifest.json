@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/PArHam7017//maktabkhooneh-resume/static/css/main.5285e64d.chunk.css",
+    "main.js": "/PArHam7017//maktabkhooneh-resume/static/js/main.38f20261.chunk.js",
+    "main.js.map": "/PArHam7017//maktabkhooneh-resume/static/js/main.38f20261.chunk.js.map",
+    "runtime-main.js": "/PArHam7017//maktabkhooneh-resume/static/js/runtime-main.cdf98f59.js",
+    "runtime-main.js.map": "/PArHam7017//maktabkhooneh-resume/static/js/runtime-main.cdf98f59.js.map",
+    "static/js/2.c85591a2.chunk.js": "/PArHam7017//maktabkhooneh-resume/static/js/2.c85591a2.chunk.js",
+    "static/js/2.c85591a2.chunk.js.map": "/PArHam7017//maktabkhooneh-resume/static/js/2.c85591a2.chunk.js.map",
+    "index.html": "/PArHam7017//maktabkhooneh-resume/index.html",
+    "precache-manifest.6a1d388ce0de487eea28776660194d98.js": "/PArHam7017//maktabkhooneh-resume/precache-manifest.6a1d388ce0de487eea28776660194d98.js",
+    "service-worker.js": "/PArHam7017//maktabkhooneh-resume/service-worker.js",
+    "static/css/main.5285e64d.chunk.css.map": "/PArHam7017//maktabkhooneh-resume/static/css/main.5285e64d.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cdf98f59.js",
+    "static/js/2.c85591a2.chunk.js",
+    "static/css/main.5285e64d.chunk.css",
+    "static/js/main.38f20261.chunk.js"
+  ]
+}

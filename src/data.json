@@ -5,6 +5,7 @@
         "github": "https://github.com/parham7017",
         "stackoverflow": "https://stackoverflow.com/users/12166245/parham7017"
     },
+    "themeOptions" : [["#004080" , "#ffff59" , "#c0c0c0" ] , ["#ffc522" , "#f1ff54" , "#26e100"] , ["#3ac0b8" , "#c0c0c0" , "#ff7e59"]],
     "sections": [
         {
             "title": "About",

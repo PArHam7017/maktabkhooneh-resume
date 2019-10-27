@@ -7,14 +7,24 @@ import { IconContext } from "react-icons";
 import {FaAngleDown} from 'react-icons/fa';
 import { Link, Element } from "react-scroll";
 
+
 export default class TitlesSection extends React.Component {
 
     constructor() {
         super();
         this.state = {
-            color: "white"
+            color: "white" ,
+            themeColor: data.themeOptions[0][0]
         };
         this.changeColor = this.changeColor.bind(this);
+    }
+
+    static getDerivedStateFromProps(nextProps, prevState) {
+        const {themeId} = nextProps;
+
+        return {
+            themeColor: data.themeOptions[themeId][0],
+        };
     }
 
     changeColor() {
@@ -27,7 +37,7 @@ export default class TitlesSection extends React.Component {
         return (
             <div>
                 <Element name="HOME"/>
-                <FullPage className="first">
+                <FullPage className={"first"} backgroundColor={this.state.themeColor}>
                     <h1 className="title"
                         style={{color: this.state.color}}
                         onMouseOver={this.changeColor}

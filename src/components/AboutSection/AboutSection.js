@@ -7,11 +7,27 @@ import {IconContext} from "react-icons";
 import {FaAngleDown} from 'react-icons/fa'
 
 export default class AboutSection extends React.Component {
+
+    constructor() {
+        super();
+        this.state = {
+            themeColor: data.themeOptions[0][1]
+        };
+    }
+
+    static getDerivedStateFromProps(nextProps, prevState) {
+        const {themeId} = nextProps;
+
+        return {
+            themeColor: data.themeOptions[themeId][1],
+        };
+    }
+
     render() {
         return (
             <div>
                 <Element name={"ABOUT"} />
-                <FullPage className="second">
+                <FullPage className={"second"} backgroundColor={this.state.themeColor}>
                     <h3>{data.sections[0].title}</h3>
                     <div>
                         {data.sections[0].items.map(p => {

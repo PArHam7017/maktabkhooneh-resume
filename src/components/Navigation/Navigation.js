@@ -2,6 +2,8 @@ import React from 'react';
 import './Navigation.css';
 import PropTypes from 'prop-types';
 import { Link, Element } from "react-scroll";
+import { IconContext } from "react-icons";
+import {FaPencilAlt} from 'react-icons/fa';
 
 import {
     Collapse,
@@ -11,6 +13,7 @@ import {
     Nav,
     NavItem,
     NavLink,
+    Button
 } from 'reactstrap';
 
 export default class Navigation extends React.Component {
@@ -72,6 +75,15 @@ export default class Navigation extends React.Component {
                                     delay={0}>
                                 <NavLink href="#SKILLS">SKILLS</NavLink>
                                 </Link>
+                            </NavItem>
+                        </Nav>
+                        <Nav className="ml-auto" navbar>
+                            <NavItem>
+                                <Button className={"btn "} onClick={this.props.handleChangeThemeClick}>
+                                    <IconContext.Provider value={{ size: "1rem" }}>
+                                        <div><FaPencilAlt /></div>
+                                    </IconContext.Provider>
+                                </Button>
                             </NavItem>
                         </Nav>
                     </Collapse>

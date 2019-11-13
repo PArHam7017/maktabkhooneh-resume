@@ -63,7 +63,7 @@ export default class TitlesSection extends React.Component {
                             offset={0}
                             duration={500}
                             delay={0}>
-                            <IconContext.Provider value={{ size: "5rem" }}>
+                            <IconContext.Provider value={{ className : "down-icon" }}>
                                 <div><FaAngleDown /></div>
                             </IconContext.Provider>
                         </Link>

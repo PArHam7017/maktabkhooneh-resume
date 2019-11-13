@@ -80,7 +80,7 @@ export default class Navigation extends React.Component {
                         <Nav className="ml-auto" navbar>
                             <NavItem>
                                 <Button className={"btn "} onClick={this.props.handleChangeThemeClick}>
-                                    <IconContext.Provider value={{ size: "1rem" }}>
+                                    <IconContext.Provider value={{ className: "pencil-icon" }}>
                                         <div><FaPencilAlt /></div>
                                     </IconContext.Provider>
                                 </Button>

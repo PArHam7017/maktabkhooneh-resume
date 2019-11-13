@@ -43,8 +43,8 @@ export default class AboutSection extends React.Component {
                             offset={0}
                             duration={500}
                             delay={0}>
-                            <IconContext.Provider value={{ size: "5rem" }}>
-                                <div><FaAngleDown /></div>
+                            <IconContext.Provider value={{ className : "down-icon" }}>
+                                <FaAngleDown />
                             </IconContext.Provider>
                         </Link>
                     </div>
